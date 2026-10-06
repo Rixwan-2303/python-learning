@@ -30,3 +30,18 @@ total = price * quantity
 final_price = total - discount
 
 print(final_price)
+
+name = input ("What is your name? ")
+city = input ("Which city do you live in? ")
+
+print("Your name is", name)
+print("You live in", city)
+
+product = input("What product are you buying? ")
+price = float(input("What is the price? "))
+quantity = int(input("How many do you want? "))
+
+total = price * quantity
+
+print("Product:", product)
+print("Total:", total)
