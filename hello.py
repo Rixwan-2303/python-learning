@@ -45,3 +45,10 @@ total = price * quantity
 
 print("Product:", product)
 print("Total:", total)
+
+age = 40
+
+print(age > 18)
+print(age == 40)
+print(age < 18)
+print(age != 40)
