@@ -52,3 +52,12 @@ print(age > 18)
 print(age == 40)
 print(age < 18)
 print(age != 40)
+
+age = 25
+has_ticket = True
+is_blocked = False
+
+if age >= 18 and has_ticket and not is_blocked:
+    print("Entry allowed")
+else:
+    print("Entry denied")
