@@ -6,3 +6,9 @@ total = price * quantity
 
 print(product)
 print(total)
+
+if total >= 1000:
+    print("Bulk purchase")
+else:
+    print("Regular purchase")
+    
